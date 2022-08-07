@@ -1,0 +1,140 @@
+header{
+    height: 100vh;
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+}
+.overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+header .title{
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.title h2{
+    font-size: 60px;
+}
+.sidebar{
+    background-color: #414658;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    width: 0px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.sidebar li{
+    padding: 20px;
+}
+.sidebar a{
+    transition: all ease 0.3s;
+}
+.sidebar a:hover, .close:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+.close{
+    color: #fff;
+    padding: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.open{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+#singer h3{
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+#singer p{
+    padding: 10px;
+    background-color: #ccc;
+    margin-bottom: 0;
+    display: none;
+}
+.container{
+    padding: 100px 0;
+}
+#counter{
+    background-size: cover
+}
+#counter .time{
+    padding: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+#counter h3{
+    font-weight: 400
+}
+#contact{
+    margin-top: 100px;
+    color:#777
+}
+#contact h2, #contact h3{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+}
+#contact h3{
+    font-size: 18px;
+   
+}
+.info p{
+    line-height:26px
+}
+.details p{
+    margin-bottom: 35px;
+}
+.details i{
+    margin-right: 20px
+}
+.text-red{
+    color: #D62E33 !important
+}
+.icons i{
+    border: 1px solid #777;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.icons i:hover{
+    background-color: #D62E33;
+    color: #fff;
+}
+form .form-control{
+    margin-bottom: 20px;
+    height: 45px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 1.333333;
+}
+.btn-red{
+    margin-top: 10px;
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 30px;
+}
+textarea.form-control{
+    height: 200px;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
